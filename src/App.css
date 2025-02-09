@@ -1,11 +1,36 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 10px;
+  --border-color: #e0e0e0;
+  --shadow-color: #fac3fd;
+  --secondary-color: #da86df; 
+  --spacing-unit: 20px;
 }
 
-.logo {
+.about-me {
+    padding: var(--spacing-unit);
+    border-radius: 8px;
+    border: 2px solid var(--border-color);
+    box-shadow: 0 4px 6px var(--shadow-color);
+    text-align: center;
+  
+}
+
+.header {
+  text-align: center;
+  padding: calc(var(--spacing-unit) * 1.5) 0;
+
+}
+
+.intro,
+.detail {
+  margin-bottom: calc(var(--spacing-unit) * 0.75);
+  color: var(--secondary-color);
+}
+
+
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -39,4 +64,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
