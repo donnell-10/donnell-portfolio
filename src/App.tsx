@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import ContactButtons from './components/ContactButtons'
+//import MailModal from './components/MailModal'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -29,6 +30,7 @@ function App() {
         <div style={{padding:'5px', display:'flex', justifyContent:'center'}}>
            <ContactButtons/>
         </div>
+        {/* <MailModal/> */}
        
 
       </div>

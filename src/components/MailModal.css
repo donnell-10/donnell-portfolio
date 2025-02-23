@@ -1,19 +1,16 @@
-.buttons {
+.mail-modal {
     display: flex;
-    padding: 1rem;
-    gap: 1rem;
-    width: 200px;
+    width: 3/5;
+    height: 3/5;
+    background-color:lavender;
     justify-content: center;
 }
 
-.btn {
+.mail-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 12px;
     background-color: #d988dd;
-    color: black;
-    justify-content: center;
+    border-radius: 12px;
     cursor: pointer;
-    
 }
